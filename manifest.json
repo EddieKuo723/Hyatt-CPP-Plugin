@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Hyatt CPP",
+  "version": "1.0",
+  "description": "Hyatt CPP is a web browser extension to help calculate Cent Per Point on Hyatt",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "run_at": "document_idle",
+      "matches": [
+        "https://www.hyatt.com/search/*rateFilter=woh*"
+      ]
+    }
+  ]
+}
+  
