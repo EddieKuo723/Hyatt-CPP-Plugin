@@ -13,9 +13,10 @@
 ### Calcute the CPP with this extension:
 
 [Hyatt](https://www.hyatt.com/)
-
 Enter the location and check the `Use Points` to find the hotels
-<img src="image/preview.png" width="300"/>
+<br>
+<br>
+<img src="image/preview.png" width="50%" />
 
 
 ### Contributing - Pull Requests
